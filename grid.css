@@ -1,0 +1,36 @@
+.container {
+
+    display: grid;
+    grid-template: 50px 50px / 50px 50px;
+    background-color: aquamarine;
+    grid-auto-rows: 50px;
+    column-gap: 10px;
+    row-gap: 50px;
+    border: 5px solid blue;
+}
+
+.container > div {
+
+    border: 2px solid blue;
+}
+
+.container2 {
+
+    display: grid;
+    grid-template: 50px 50px / 50px 50px 50px 50px 50px 50px 50px;
+    background-color: rgb(127, 208, 255);
+    grid-auto-rows: 50px;
+    column-gap: 10px;
+    row-gap: 50px;
+    border: 5px solid rgb(194, 26, 48);
+}
+
+
+.container2 > div {
+
+    border: 2px solid blue;
+}
+
+.para8 {
+    height: 130px;
+}
